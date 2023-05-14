@@ -1,2 +1,2 @@
 FROM tomcat:9-jdk11
-COPY target/*.war /usr/local/tomcat/webapps/
+COPY target/*.jar /usr/local/tomcat/webapps/
